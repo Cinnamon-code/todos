@@ -1,0 +1,67 @@
+.filter {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  padding: 0 40px;
+  align-items: center;
+  height: 50px;
+  border-top: 1px #E4E7ED solid;
+  background-color: #fff;
+  border-radius: 0 0 10px 10px;
+  font: normal 400 14px "PingFang SC", "Heiti SC", "Microsoft Yahei", serif;
+
+  .btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 20px;
+    margin-right: 10px;
+    background-color: #fff;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all .3s;
+
+    &:last-child {
+      margin-right: 0;
+      border-right: none;
+    }
+
+    &:hover {
+      //box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    }
+  }
+
+  .all.selected {
+    background-color: #daebff;
+  }
+
+  .all:hover {
+    background-color: #daebff;
+    color: #606266;
+  }
+
+  .active.selected {
+    background-color: #faecd8;
+  }
+
+  .active:hover {
+    background-color: #faecd8;
+    color: #606266;
+  }
+
+  .completed.selected {
+    background-color: #e0f3d8;
+  }
+
+  .completed:hover {
+    background-color: #e0f3d8;
+    color: #606266;
+  }
+
+  .left {
+    flex: 1;
+    text-align: end;
+  }
+}

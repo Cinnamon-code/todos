@@ -1,0 +1,22 @@
+.todoList {
+  position: relative;
+  height: 95vh;
+  width: 45%;
+  //padding: 25px 0 50px 0;
+  //padding-bottom: 50px;
+  box-sizing: border-box;
+  //box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+  border: 1px #E4E7ED solid;
+  border-radius: 10px;
+  background-color: #fdfdfd;
+  //background-image: linear-gradient(to top, #dfe9f3 0%, white 100%);
+  overflow: auto;
+
+  .wrapper {
+    height: 100%;
+    padding: 90px 40px 50px;
+    box-sizing: border-box;
+    overflow: auto;
+  }
+}
